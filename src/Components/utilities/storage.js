@@ -1,6 +1,6 @@
 const addToDB = id =>{
     localStorage.clear();
-    localStorage.setItem(id, 1);
+    localStorage.setItem('time', id);
 }
 
 export {addToDB};
