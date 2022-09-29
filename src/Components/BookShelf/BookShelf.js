@@ -4,14 +4,20 @@ import Book from '../Book/Book';
 
 const BookShelf = () => {
     const [books, setBooks] = useState([]);
+
+    const [completeList, setCompleteList] = useState([]);
+
     useEffect(() => {
         fetch('books.json')
             .then(res => res.json())
             .then(data => setBooks(data))
     }, [])
 
-    const addToList = (bookId) => {
-        console.log(bookId);
+    const addToList = (book) => {
+        
+        const newList = [...completeList, book];
+        setCompleteList(newList);
+        console.log(completeList);
     }
     return (
         <div>
@@ -22,7 +28,7 @@ const BookShelf = () => {
                     }
                 </div>
                 <div className='basis-3/12 bg-white'>
-                    <Activity_Timeline></Activity_Timeline>
+                    <Activity_Timeline completeList={completeList}></Activity_Timeline>
                 </div>
             </div>
         </div>
