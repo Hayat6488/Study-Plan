@@ -11,13 +11,13 @@ const BookShelf = () => {
     }, [])
     return (
         <div>
-            <div className='flex flex-row gap-2'>
+            <div className='flex flex-row gap-4'>
                 <div className='basis-9/12 my-16 container ml-20 grid grid-cols-4 gap-4'>
                     {
                         books.map(book => <Book key={book.id} book={book}></Book>)
                     }
                 </div>
-                <div className='basis-3/12'>
+                <div className='basis-3/12 bg-white'>
                     <Activity_Timeline></Activity_Timeline>
                 </div>
             </div>
