@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import user from '../../images/01013235.jpg'
 import React from 'react';
 
-const UserInfo = () => {
+const UserInfo = (props) => {
+
     return (
         <div className='ml-4'>
              <div className='mt-16 bg-slate-100 rounded-lg py-2 px-2 flex flex-wrap gap-2'>
@@ -32,11 +33,11 @@ const UserInfo = () => {
             <div>
                 <p className='text-3xl font-semibold break-normal'>Add a Break</p>
                 <div className='flex flex-wrap gap-2 my-3'>
-                    <button className='px-4 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>5</p></button>
-                    <button className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>10</p></button>
-                    <button className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>15</p></button>
-                    <button className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>20</p></button>
-                    <button className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>25</p></button>
+                    <button onClick={() => props.addBreakTime(5)} className='px-4 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>5</p></button>
+                    <button onClick={() => props.addBreakTime(10)} className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>10</p></button>
+                    <button onClick={() => props.addBreakTime(15)} className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>15</p></button>
+                    <button onClick={() => props.addBreakTime(20)} className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>20</p></button>
+                    <button onClick={() => props.addBreakTime(25)} className='px-3 py-2 rounded-full bg-slate-100'><p className='text-2xl font-semibold'>25</p></button>
                 </div>
 
             </div>

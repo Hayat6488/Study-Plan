@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Study_Details from '../studyDetails/Study_Details';
 import UserInfo from '../UserInfo/UserInfo';
 
 const Activity_Timeline = (props) => {
+
+    const [breakTime,setBreakTime] = useState(0);
+    
+    const addBreakTime = (time) => {
+        setBreakTime(time);    
+        
+        }
+        
+
+
     return (
         <div className='sticky top-16'>
-            <UserInfo></UserInfo>
-            <Study_Details completeList={props.completeList}></Study_Details>
+            <UserInfo addBreakTime={addBreakTime}></UserInfo>
+            <Study_Details completeList={props.completeList} breakTime={breakTime}></Study_Details>
         </div>
     );
 };
