@@ -1,0 +1,86 @@
+[
+  {
+    "id": "63348bc7fa7a6958add40302",
+    "img": "https://akkharpatra.com/book/detail/BA115919_bangla_byakaron_o_nirmiti_2019.jpeg",
+    "name": "Bengali-2",
+    "author": "Dr. Solaiman Kabir",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40303",
+    "img": "https://1.bp.blogspot.com/-8sPIxTjVVpI/X4PwJnDyEFI/AAAAAAAAidI/coqmjPq9JpI6cpvHkRejbh9OKBIHb5YSACLcBGAsYHQ/s16000/HSC%2BEnglish%2BFor%2BToday%2B%2528Class%2B11-12%2529%2BBy%2BNCTB.JPG",
+    "name": "English-1",
+    "author": "NCTB",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40304",
+    "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/English_Paper_II_Communicative_English_G-Rezoanul_Hoque_Shuvo-d6e7b-188842.jpg",
+    "name": "English-2",
+    "author": "Chowdhury & Hussain",
+    "time": 45
+  },
+  {
+    "id": "63348bc7fa7a6958add40305",
+    "img": "https://akkharpatra.com/images/01.jpg",
+    "name": "Information & Comunication Technology",
+    "author": "A Z M Asaduzzaman",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40306",
+    "img": "https://akkharpatra.com/images/03.jpg",
+    "name": "Physics-1",
+    "author": "Prof. Dr. Golam Hossain Pramanik",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40307",
+    "img": "https://akkharpatra.com/books/BA114818_physics_2nd_paper_text_book_2018.jpeg",
+    "name": "Physics-2",
+    "author": "Prof. Dr. Golam Hossain Pramanik",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40308",
+    "img": "https://akkharpatra.com/books/BA116619_chemistry_1st_paper_text_book_2019.jpeg",
+    "name": "Chemistry-1",
+    "author": "Mahbub Hasan Lincon",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40309",
+    "img": "https://akkharpatra.com/books/BA111518_chemistry_2nd_paper_text_book_2018.jpeg",
+    "name": "Chemistry-2",
+    "author": "Mahbub Hasan Lincon",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40310",
+    "img": "https://akkharpatra.com/book/detail/BA116719_biology_1st_paper_text_book_2019.jpeg",
+    "name": "Biology-1",
+    "author": "Prof. Dr. Azizur Rahman",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40311",
+    "img": "https://akkharpatra.com/books/BA116419_biology_2nd_paper_text_book_2019.jpeg",
+    "name": "Biology-2",
+    "author": "Prof. Dr. Azizur Rahman",
+    "time": 30
+  },
+  {
+    "id": "63348bc7fa7a6958add40312",
+    "img": "https://akkharpatra.com/books/BA116119_higher_mathematics_text_book_1st_paper_2019.jpeg",
+    "name": "Higher Mathematics",
+    "author": "Prof. Dr. Ashim Kumar Saha",
+    "time": 60
+  },
+  {
+    "id": "63348bc7fa7a6958add40313",
+    "img": "https://akkharpatra.com/books/BA113118_higher_mathematics_text_book_2nd_paper_2018.jpeg",
+    "name": "Higher Mathematics",
+    "author": "Prof. Dr. Ashim Kumar Saha",
+    "time": 60
+  }
+]
