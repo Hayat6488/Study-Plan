@@ -10,7 +10,7 @@ const Book = (props) => {
             <p className='break-normal font-bold p-1'>Book: {name}</p>
             <p className='break-normal font-semibold p-1'>Author: {author}</p>
             <p className='break-normal font-semibold p-1'>Time: {time} mins</p>
-            <button className='bg-sky-500 rounded-b-md w-full absolute bottom-0 text-white py-1'>Add To List</button>
+            <button className='bg-sky-500 rounded-b-md w-full absolute bottom-0 text-white py-1 break-normal'>Add To List</button>
             </div>
         </div>
     );
